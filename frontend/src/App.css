@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  /* background-color: antiquewhite; */
+}
+
+.code{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+  flex-wrap: wrap;
+}
+
+
+html {
+  font-size: 80%;
+}
+
+
+
+.bot {
+  /* background: rgba(28, 30, 58, 1); */
+  width: fit-content;
+  border-radius: 0.5rem;
+  font-family: "Poppins", sans-serif;
+}
+
+.txt {
+  /* margin-top: 10px; */
+  overflow: auto;
+  overflow-wrap: break-word;
+  font-family: "Poppins", sans-serif;
+  padding-left: 40px;
+}
+
+.codecopy {
+  display: flex;
+  justify-content: space-between;
+  font-family: "Poppins", sans-serif;
+  flex-direction: row;
+}
+
+.chat {
+  /* margin-top: 10px; */
+  /* padding: 10px ; */
+  font-size: 1.2rem;
+  width: 100%;
+  word-wrap: break-word; 
+  font-family: "Poppins", sans-serif;
+  color: white;
+}
+
+
+@media only screen and (max-width: 1285px) {
+  .inp{
+    width: 65rem;
+  }
+  .chats{
+    max-width: 65rem;
+  }
+}
+
+@media only screen and (max-width: 1250px) {
+  .inp{
+    width: 60rem;
+  }
+  .chats{
+    max-width: 60rem;
+  }
+}
+
+@media only screen and (max-width: 1235px) {
+  .inp{
+    width: 50rem;
+  }
+  .chats{
+    max-width: 50rem;
+  }
+  .sideBar{
+    display: none;
+  }
+  .main{
+    flex:12;
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .inp{
+    width: 45rem;
+  }
+  .chats{
+    max-width: 45rem;
+  }
+  .inputfrom {
+    padding: 4px;
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 622px) {
+  .inp{
+    width: 40rem;
+  }
+  .chats{
+    max-width: 40rem;
+  }
+  .inputfrom {
+    padding: 4px;
+    font-size: 13px;
+  }
+}
+
+@media only screen and (max-width: 580px) {
+  .inp{
+    width: 35rem;
+  }
+  .chats{
+    max-width: 35rem;
+  }
+  .inputfrom {
+    padding: 3px;
+    font-size: 13px;
+  }
+}
+
+@media only screen and (max-width: 517px) {
+  .inp{
+    width: 30rem;
+  }
+  .chats{
+    max-width: 30rem;
+  }
+  .inputfrom {
+    padding: 3px;
+    font-size: 13px;
+  }
+}
+
+@media only screen and (max-width: 475px) {
+  .inp{
+    width: 25rem;
+  }
+  .chats{
+    max-width: 25rem;
+  }
+  .inputfrom {
+    padding: 2px;
+    font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 412px) {
+  .body{
+    margin-left: 10px;
+  }
+  .inp{
+    width: 20rem;
+  }
+  .chats{
+    max-width: 20rem;
+  }
+  .inputfrom {
+    padding: 1px;
+    font-size: 10px;
+  }
+}
+
